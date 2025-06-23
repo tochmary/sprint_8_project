@@ -29,5 +29,4 @@ public class Account {
                 && !name.endsWith(" ")
                 && name.split(" ").length == 2);
     }
-
 }
