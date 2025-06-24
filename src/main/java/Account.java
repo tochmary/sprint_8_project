@@ -24,7 +24,7 @@ public class Account {
         return false; */
         return ((name.length() >= 3)
                 && (name.length() <= 19)
-                && name.contains(" ")
+               // && name.contains(" ")
                 && !name.startsWith(" ")
                 && !name.endsWith(" ")
                 && name.split(" ").length == 2);
